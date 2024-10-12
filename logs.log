@@ -1,0 +1,1692 @@
+INFO:root:The error 'near "20": syntax error' occurred in 'INSERT INTO users (id, city, timer) VALUES (1647252544, Екатеринбург, CAST(10/10/2024 20:36:51.473124 AS DATETIME))'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.event:Update id=663968430 is handled. Duration 259 ms by bot id=7759246153
+INFO:aiogram.event:Update id=663968431 is handled. Duration 0 ms by bot id=7759246153
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:root:The error 'near "20": syntax error' occurred in 'INSERT INTO users (id, city, timer) VALUES (1647252544, "Екатеринбург", CAST(10/10/2024 20:59:51.718347 AS DATETIME))'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:root:The error 'near "21": syntax error' occurred in 'INSERT INTO users (id, city, timer) VALUES (1647252544, "Екатеринбург", CAST(10/10/2024 21:00:20 AS DATETIME))'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:root:The error 'near "21": syntax error' occurred in 'INSERT INTO users (id, city, timer) VALUES (1647252544, "Екатеринбург", CAST(2024-10-10 21:01:43.651111 AS DATETIME))'
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+INFO:aiogram.dispatcher:Polling stopped
+21:02:45,965 asyncio DEBUG Using selector: EpollSelector
+21:02:45,967 root INFO The error 'UNIQUE constraint failed: users.id' occurred in 'INSERT INTO users (id, city, timer) VALUES (1647252544, "Екатеринбург", CAST('2024-10-10 21:02:45.967232' AS DATETIME))'
+21:02:45,967 aiogram.dispatcher INFO Start polling
+21:02:46,188 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:03:28,463 aiogram.dispatcher WARNING Received SIGINT signal
+21:03:28,463 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:03:28,463 aiogram.dispatcher INFO Polling stopped
+21:03:37,821 asyncio DEBUG Using selector: EpollSelector
+21:03:37,975 aiogram.dispatcher INFO Start polling
+21:03:38,200 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:05:17,832 aiogram.dispatcher WARNING Received SIGINT signal
+21:05:17,832 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:05:17,832 aiogram.dispatcher INFO Polling stopped
+21:05:21,54 asyncio DEBUG Using selector: EpollSelector
+21:05:21,196 aiogram.dispatcher INFO Start polling
+21:05:21,505 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:05:23,814 aiogram.dispatcher WARNING Received SIGINT signal
+21:05:23,815 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:05:23,815 aiogram.dispatcher INFO Polling stopped
+21:06:48,348 asyncio DEBUG Using selector: EpollSelector
+21:06:48,402 root INFO Query executed successfully -  DROP TABLE users; 
+21:06:48,450 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:06:48,498 root INFO Query executed successfully - INSERT INTO users (id, city, timer) VALUES (1647252544, "Екатеринбург", '2024-10-10 21:06:48.450303')
+21:06:48,499 aiogram.dispatcher INFO Start polling
+21:06:48,786 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:08:09,367 aiogram.dispatcher WARNING Received SIGINT signal
+21:08:09,368 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:08:09,368 aiogram.dispatcher INFO Polling stopped
+21:08:12,494 asyncio DEBUG Using selector: EpollSelector
+21:08:12,495 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:08:12,495 aiogram.dispatcher INFO Start polling
+21:08:12,726 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:08:34,889 aiogram.dispatcher WARNING Received SIGINT signal
+21:08:34,890 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:08:34,890 aiogram.dispatcher INFO Polling stopped
+21:12:07,941 asyncio DEBUG Using selector: EpollSelector
+21:12:07,942 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:12:07,942 aiogram.dispatcher INFO Start polling
+21:12:08,186 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:12:20,231 root INFO Query executed successfully - UPDATE users SET city='Москва' WHERE id=1647252544
+21:12:20,231 aiogram.event INFO Update id=663968432 is handled. Duration 50 ms by bot id=7759246153
+21:12:51,630 aiogram.dispatcher WARNING Received SIGINT signal
+21:12:51,630 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:12:51,630 aiogram.dispatcher INFO Polling stopped
+21:12:54,887 asyncio DEBUG Using selector: EpollSelector
+21:12:54,888 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:12:54,888 aiogram.dispatcher INFO Start polling
+21:12:55,111 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:13:01,912 root INFO Query executed successfully - UPDATE users SET city='Екатеринбург' WHERE id=1647252544
+21:13:02,257 aiogram.event INFO Update id=663968433 is handled. Duration 586 ms by bot id=7759246153
+21:27:04,348 aiogram.dispatcher WARNING Received SIGINT signal
+21:27:04,348 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:27:04,349 aiogram.dispatcher INFO Polling stopped
+21:33:51,532 asyncio DEBUG Using selector: EpollSelector
+21:33:51,532 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:33:51,533 aiogram.dispatcher INFO Start polling
+21:33:51,764 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:34:05,517 aiogram.event INFO Update id=663968434 is handled. Duration 292 ms by bot id=7759246153
+21:34:43,845 aiogram.dispatcher WARNING Received SIGINT signal
+21:34:43,845 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:34:43,846 aiogram.dispatcher INFO Polling stopped
+21:35:56,111 asyncio DEBUG Using selector: EpollSelector
+21:35:56,111 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:35:56,111 aiogram.dispatcher INFO Start polling
+21:35:56,847 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:35:59,659 aiogram.event INFO Update id=663968435 is handled. Duration 293 ms by bot id=7759246153
+21:36:18,714 aiogram.dispatcher WARNING Received SIGINT signal
+21:36:18,714 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:36:18,714 aiogram.dispatcher INFO Polling stopped
+21:36:21,684 asyncio DEBUG Using selector: EpollSelector
+21:36:21,684 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:36:21,684 aiogram.dispatcher INFO Start polling
+21:36:21,909 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:36:23,577 aiogram.event INFO Update id=663968436 is handled. Duration 292 ms by bot id=7759246153
+21:36:28,621 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:36:28,668 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:36:28.621240' WHERE id=1647252544
+21:36:28,669 aiogram.event INFO Update id=663968437 is handled. Duration 587 ms by bot id=7759246153
+21:37:20,830 aiogram.dispatcher WARNING Received SIGINT signal
+21:37:20,831 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:37:20,831 aiogram.dispatcher INFO Polling stopped
+21:37:24,215 asyncio DEBUG Using selector: EpollSelector
+21:37:24,215 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:37:24,216 aiogram.dispatcher INFO Start polling
+21:37:24,449 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:37:25,330 aiogram.event INFO Update id=663968438 is handled. Duration 305 ms by bot id=7759246153
+21:37:27,279 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:37:28,360 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:37:27.279638' WHERE id=1647252544
+21:37:28,602 aiogram.event INFO Update id=663968439 is handled. Duration 1566 ms by bot id=7759246153
+21:39:59,557 aiogram.dispatcher WARNING Received SIGINT signal
+21:39:59,558 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:39:59,558 aiogram.dispatcher INFO Polling stopped
+21:40:02,754 asyncio DEBUG Using selector: EpollSelector
+21:40:02,754 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:40:02,754 aiogram.dispatcher INFO Start polling
+21:40:03,39 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:40:05,558 aiogram.event INFO Update id=663968440 is handled. Duration 324 ms by bot id=7759246153
+21:40:07,201 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:40:07,251 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:40:07.201158' WHERE id=1647252544
+21:40:07,480 aiogram.event INFO Update id=663968441 is not handled. Duration 390 ms by bot id=7759246153
+21:40:07,480 aiogram.event ERROR Cause exception while process update id=663968441 by bot id=7759246153
+TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/ups_otbor/main.py", line 51, in process_callback_button1
+    await bot.delete_message(callback_query.from_user.id, callback_query.message.chat.id)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/bot.py", line 1204, in delete_message
+    return await self(call, request_timeout=request_timeout)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/bot.py", line 480, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 178, in make_request
+    response = self.check_response(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+21:40:43,412 aiogram.dispatcher WARNING Received SIGINT signal
+21:40:43,413 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:40:43,413 aiogram.dispatcher INFO Polling stopped
+21:40:46,631 asyncio DEBUG Using selector: EpollSelector
+21:40:46,632 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:40:46,632 aiogram.dispatcher INFO Start polling
+21:40:46,855 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:40:49,28 aiogram.event INFO Update id=663968442 is handled. Duration 344 ms by bot id=7759246153
+21:40:50,28 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:40:50,74 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:40:50.028247' WHERE id=1647252544
+21:40:50,389 aiogram.event INFO Update id=663968443 is handled. Duration 459 ms by bot id=7759246153
+21:45:01,66 aiogram.dispatcher WARNING Received SIGINT signal
+21:45:01,66 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:45:01,67 aiogram.dispatcher INFO Polling stopped
+21:45:04,526 asyncio DEBUG Using selector: EpollSelector
+21:45:04,526 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:45:04,527 aiogram.dispatcher INFO Start polling
+21:45:04,857 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:45:12,814 aiogram.event INFO Update id=663968444 is handled. Duration 363 ms by bot id=7759246153
+21:45:13,984 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:45:14,97 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:45:13.984421' WHERE id=1647252544
+21:45:14,448 aiogram.event INFO Update id=663968445 is not handled. Duration 615 ms by bot id=7759246153
+21:45:14,448 aiogram.event ERROR Cause exception while process update id=663968445 by bot id=7759246153
+AttributeError: 'UserManager' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/ups_otbor/main.py", line 56, in process_callback_button1
+    asyncio.create_task(send_weather(callback_query.from_user.id, 60 * int(callback_query.data[6:])))
+  File "/home/tima/ups_otbor/main.py", line 61, in send_weather
+    bot.send_message(tid, str(WeatherAPI.get_weather(UManager.get(tid))))
+AttributeError: 'UserManager' object has no attribute 'get'
+21:45:27,581 aiogram.dispatcher WARNING Received SIGINT signal
+21:45:27,582 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:45:27,582 aiogram.dispatcher INFO Polling stopped
+21:45:39,271 asyncio DEBUG Using selector: EpollSelector
+21:45:39,272 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:45:39,272 aiogram.dispatcher INFO Start polling
+21:45:39,513 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:45:42,250 aiogram.event INFO Update id=663968446 is handled. Duration 367 ms by bot id=7759246153
+21:45:43,637 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:45:43,686 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:45:43.637904' WHERE id=1647252544
+21:45:43,921 aiogram.event INFO Update id=663968447 is handled. Duration 371 ms by bot id=7759246153
+21:46:43,932 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:59> exception=AttributeError("'UserManager' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 61, in send_weather
+    bot.send_message(tid, str(WeatherAPI.get_weather(UManager.get(tid))))
+AttributeError: 'UserManager' object has no attribute 'get'
+21:47:09,594 aiogram.dispatcher WARNING Received SIGINT signal
+21:47:09,594 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:47:09,595 aiogram.dispatcher INFO Polling stopped
+21:47:14,264 asyncio DEBUG Using selector: EpollSelector
+21:47:14,265 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:47:14,265 aiogram.dispatcher INFO Start polling
+21:47:14,503 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:47:16,884 aiogram.event INFO Update id=663968448 is handled. Duration 413 ms by bot id=7759246153
+21:47:18,189 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:47:18,237 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:47:18.189788' WHERE id=1647252544
+21:47:18,502 aiogram.event INFO Update id=663968449 is handled. Duration 507 ms by bot id=7759246153
+21:48:18,503 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:59> exception=AttributeError("'UserManager' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 63, in send_weather
+    bot.send_message(tid, str(WeatherAPI.get_weather(UManager.get(tid))))
+AttributeError: 'UserManager' object has no attribute 'get'
+21:49:11,12 aiogram.dispatcher WARNING Received SIGINT signal
+21:49:11,13 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:49:11,13 aiogram.dispatcher INFO Polling stopped
+21:50:20,208 asyncio DEBUG Using selector: EpollSelector
+21:50:20,209 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:50:20,209 aiogram.dispatcher INFO Start polling
+21:50:20,581 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:50:22,466 aiogram.event INFO Update id=663968450 is handled. Duration 294 ms by bot id=7759246153
+21:50:23,537 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:50:24,388 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:50:23.537441' WHERE id=1647252544
+21:50:24,630 aiogram.event INFO Update id=663968451 is handled. Duration 1178 ms by bot id=7759246153
+21:51:24,632 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:59> exception=TypeError("WeatherAPI.get_weather() missing 1 required positional argument: 'city'")>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 63, in send_weather
+    bot.send_message(tid, str(WeatherAPI.get_weather(UManager.get(tid))))
+TypeError: WeatherAPI.get_weather() missing 1 required positional argument: 'city'
+21:52:10,243 aiogram.dispatcher WARNING Received SIGINT signal
+21:52:10,243 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:52:10,243 aiogram.dispatcher INFO Polling stopped
+21:52:27,540 asyncio DEBUG Using selector: EpollSelector
+21:52:27,540 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:52:27,541 aiogram.dispatcher INFO Start polling
+21:52:27,777 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:52:29,983 aiogram.event INFO Update id=663968452 is handled. Duration 417 ms by bot id=7759246153
+21:52:31,297 root INFO Query executed successfully - UPDATE users SET delay='5' WHERE id=1647252544
+21:52:31,345 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:52:31.297394' WHERE id=1647252544
+21:52:31,804 aiogram.event INFO Update id=663968453 is handled. Duration 855 ms by bot id=7759246153
+21:52:36,809 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:59> exception=AttributeError("'tuple' object has no attribute 'capitalize'")>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 63, in send_weather
+    bot.send_message(tid, str(wapi.get_weather(UManager.get(tid))))
+  File "/home/tima/ups_otbor/api.py", line 16, in get_weather
+    lat, lon = self.get_coords(city)
+  File "/home/tima/ups_otbor/api.py", line 11, in get_coords
+    r = requests.get(f"http://api.openweathermap.org/geo/1.0/direct?q={city.capitalize()}&&appid={self.api_key}")
+AttributeError: 'tuple' object has no attribute 'capitalize'
+21:53:12,554 aiogram.dispatcher WARNING Received SIGINT signal
+21:53:12,554 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:53:12,554 aiogram.dispatcher INFO Polling stopped
+21:53:15,603 asyncio DEBUG Using selector: EpollSelector
+21:53:15,604 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:53:15,604 aiogram.dispatcher INFO Start polling
+21:53:15,837 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:53:16,212 aiogram.event INFO Update id=663968454 is handled. Duration 274 ms by bot id=7759246153
+21:53:17,466 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:53:17,515 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:53:17.466666' WHERE id=1647252544
+21:53:17,743 aiogram.event INFO Update id=663968455 is handled. Duration 595 ms by bot id=7759246153
+21:53:18,744 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:59> exception=AttributeError("'tuple' object has no attribute 'capitalize'")>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 64, in send_weather
+    bot.send_message(tid, str(wapi.get_weather(UManager.get(tid))))
+  File "/home/tima/ups_otbor/api.py", line 16, in get_weather
+    lat, lon = self.get_coords(city)
+  File "/home/tima/ups_otbor/api.py", line 11, in get_coords
+    r = requests.get(f"http://api.openweathermap.org/geo/1.0/direct?q={city.capitalize()}&&appid={self.api_key}")
+AttributeError: 'tuple' object has no attribute 'capitalize'
+21:53:33,583 aiogram.dispatcher WARNING Received SIGINT signal
+21:53:33,583 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:53:33,583 aiogram.dispatcher INFO Polling stopped
+21:53:38,754 asyncio DEBUG Using selector: EpollSelector
+21:53:38,755 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:53:38,755 aiogram.dispatcher INFO Start polling
+21:53:38,990 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:53:42,829 aiogram.event INFO Update id=663968456 is handled. Duration 269 ms by bot id=7759246153
+21:53:43,965 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:53:44,249 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:53:43.965894' WHERE id=1647252544
+21:53:44,519 aiogram.event INFO Update id=663968457 is handled. Duration 643 ms by bot id=7759246153
+21:53:45,521 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+21:55:51,323 asyncio DEBUG Using selector: EpollSelector
+21:55:51,323 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+21:55:51,323 aiogram.dispatcher INFO Start polling
+21:55:51,554 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:55:54,821 aiogram.event INFO Update id=663968458 is handled. Duration 361 ms by bot id=7759246153
+21:55:55,724 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+21:55:55,921 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 21:55:55.724169' WHERE id=1647252544
+21:55:56,148 aiogram.event INFO Update id=663968459 is handled. Duration 511 ms by bot id=7759246153
+21:55:57,149 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+21:55:57,151 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:23,563 asyncio DEBUG Using selector: EpollSelector
+22:00:23,563 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:00:23,564 aiogram.dispatcher INFO Start polling
+22:00:23,802 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:00:27,663 aiogram.event INFO Update id=663968460 is handled. Duration 402 ms by bot id=7759246153
+22:00:29,216 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+22:00:30,38 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:29.216996' WHERE id=1647252544
+22:00:30,379 aiogram.event INFO Update id=663968461 is handled. Duration 1359 ms by bot id=7759246153
+22:00:31,380 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:31,382 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:31,575 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:31,576 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:31,577 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:32,24 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:32,78 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:32.025668' WHERE id=1647252544
+22:00:33,78 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:33,80 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:33,212 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:33,213 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:33,214 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:33,487 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:33,546 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:33.488229' WHERE id=1647252544
+22:00:34,547 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:34,549 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:34,763 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:34,764 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:34,765 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:35,104 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:35,151 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:35.105118' WHERE id=1647252544
+22:00:36,153 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:36,154 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:36,294 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:36,294 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:36,295 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:36,650 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:36,699 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:36.651106' WHERE id=1647252544
+22:00:37,700 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:37,702 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:37,851 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:37,852 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:37,853 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:38,197 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:38,252 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:38.198347' WHERE id=1647252544
+22:00:39,253 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:39,255 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:39,430 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:39,430 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:39,431 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:39,834 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:39,887 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:39.835018' WHERE id=1647252544
+22:00:40,888 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:40,889 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:41,791 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:41,792 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:41,793 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:42,214 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:42,623 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:42.215730' WHERE id=1647252544
+22:00:43,624 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:43,626 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:44,255 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:44,255 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:44,256 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:44,503 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:44,550 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:44.503867' WHERE id=1647252544
+22:00:45,550 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:45,552 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:45,694 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:45,695 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:45,696 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:45,973 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:46,22 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:45.973803' WHERE id=1647252544
+22:00:47,23 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:47,25 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:00:47,172 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:00:47,173 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:00:47,175 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:00:47,466 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:00:47,519 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:00:47.467531' WHERE id=1647252544
+22:00:48,92 aiogram.dispatcher WARNING Received SIGINT signal
+22:00:48,92 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:00:48,92 aiogram.dispatcher INFO Polling stopped
+22:01:08,264 asyncio DEBUG Using selector: EpollSelector
+22:01:08,265 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:01:08,265 aiogram.dispatcher INFO Start polling
+22:01:08,502 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:01:10,721 aiogram.event INFO Update id=663968462 is handled. Duration 384 ms by bot id=7759246153
+22:01:11,675 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+22:01:12,620 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:01:11.676055' WHERE id=1647252544
+22:01:13,65 aiogram.event INFO Update id=663968463 is handled. Duration 1571 ms by bot id=7759246153
+22:01:14,67 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:01:14,68 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:01:14,192 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:01:14,193 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:01:14,194 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:01:14,502 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:01:14,690 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:01:14.621027' WHERE id=1647252544
+22:01:15,692 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:01:15,693 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:01:15,836 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:01:15,837 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:01:15,838 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:01:16,79 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:01:16,279 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:01:16.227096' WHERE id=1647252544
+22:01:17,279 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:01:17,281 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:01:17,400 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:01:17,401 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:01:17,402 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:01:22,749 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:01:22,751 aiogram.dispatcher WARNING Received SIGINT signal
+22:01:22,751 aiogram.dispatcher WARNING Received SIGINT signal
+22:01:22,752 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:01:22,752 aiogram.dispatcher INFO Polling stopped
+22:01:22,861 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:59> exception=TelegramNetworkError('HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)')>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/lib/python3.10/asyncio/sslproto.py", line 206, in feed_ssldata
+    self._sslobj.unwrap()
+  File "/usr/lib/python3.10/ssl.py", line 979, in unwrap
+    return self._sslobj.shutdown()
+ssl.SSLError: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 170, in make_request
+    async with session.post(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/client.py", line 608, in _request
+    await resp.start(conn)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 976, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/streams.py", line 640, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 61, in send_weather
+    await bot.send_message(tid, str(wapi.get_weather(UManager.get(tid))))
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/bot.py", line 2889, in send_message
+    return await self(call, request_timeout=request_timeout)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/bot.py", line 480, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 177, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)
+22:05:09,117 asyncio DEBUG Using selector: EpollSelector
+22:05:09,117 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:05:09,117 aiogram.dispatcher INFO Start polling
+22:05:09,345 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:05:21,655 aiogram.dispatcher WARNING Received SIGINT signal
+22:05:21,655 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:05:21,655 aiogram.dispatcher INFO Polling stopped
+22:05:32,560 asyncio DEBUG Using selector: EpollSelector
+22:05:32,561 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:05:32,561 aiogram.dispatcher INFO Start polling
+22:05:32,786 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:05:35,415 aiogram.event INFO Update id=663968464 is handled. Duration 349 ms by bot id=7759246153
+22:05:36,496 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+22:05:36,548 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:05:36.496813' WHERE id=1647252544
+22:05:36,918 aiogram.event INFO Update id=663968465 is handled. Duration 541 ms by bot id=7759246153
+22:06:36,919 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:06:36,921 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:06:37,99 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+22:06:37,100 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:06:37,101 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:06:37,421 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=56.839104&lon=60.60825&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 533
+22:06:37,893 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:06:37.834627' WHERE id=1647252544
+22:06:44,28 aiogram.dispatcher WARNING Received SIGINT signal
+22:06:44,28 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:06:44,29 aiogram.dispatcher INFO Polling stopped
+22:08:13,78 asyncio DEBUG Using selector: EpollSelector
+22:08:13,79 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:08:13,79 aiogram.dispatcher INFO Start polling
+22:08:13,365 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:08:17,457 aiogram.event INFO Update id=663968466 is handled. Duration 280 ms by bot id=7759246153
+22:08:19,883 aiogram.dispatcher WARNING Received SIGINT signal
+22:08:19,883 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:08:19,883 aiogram.dispatcher INFO Polling stopped
+22:08:46,313 asyncio DEBUG Using selector: EpollSelector
+22:08:46,314 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:08:46,314 aiogram.dispatcher INFO Start polling
+22:08:46,547 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:08:48,172 aiogram.event INFO Update id=663968467 is handled. Duration 312 ms by bot id=7759246153
+22:09:37,512 aiogram.event INFO Update id=663968468 is handled. Duration 403 ms by bot id=7759246153
+22:09:38,663 aiogram.event INFO Update id=663968469 is handled. Duration 157 ms by bot id=7759246153
+22:09:45,307 root INFO Query executed successfully - UPDATE users SET city='Прага' WHERE id=2015855457
+22:09:45,440 aiogram.event INFO Update id=663968470 is handled. Duration 133 ms by bot id=7759246153
+22:09:47,802 root INFO Query executed successfully - UPDATE users SET city='Екатеринбург' WHERE id=5258854731
+22:09:47,958 aiogram.event INFO Update id=663968471 is handled. Duration 156 ms by bot id=7759246153
+22:10:06,919 root INFO Query executed successfully - UPDATE users SET city='Какая погода?' WHERE id=5258854731
+22:10:07,229 aiogram.event INFO Update id=663968472 is handled. Duration 310 ms by bot id=7759246153
+22:10:27,603 aiogram.event INFO Update id=663968473 is handled. Duration 289 ms by bot id=7759246153
+22:10:32,804 root INFO Query executed successfully - UPDATE users SET city='Екатеринбург' WHERE id=5258854731
+22:10:32,962 aiogram.event INFO Update id=663968474 is handled. Duration 157 ms by bot id=7759246153
+22:10:43,943 aiogram.event INFO Update id=663968475 is handled. Duration 125 ms by bot id=7759246153
+22:10:50,274 root INFO Query executed successfully - UPDATE users SET delay='5' WHERE id=2015855457
+22:10:50,274 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:10:50.274236' WHERE id=2015855457
+22:10:50,556 aiogram.event INFO Update id=663968476 is handled. Duration 370 ms by bot id=7759246153
+22:10:55,561 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:69> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 71, in send_weather
+    await bot.send_message(tid, wapi.get_weather(UManager.get(tid)))
+  File "/home/tima/ups_otbor/umanage.py", line 90, in get
+    return self.execute_read_query(f"SELECT city FROM users WHERE id={tid}")[0][0]
+IndexError: list index out of range
+22:11:09,21 aiogram.event INFO Update id=663968477 is handled. Duration 267 ms by bot id=7759246153
+22:11:15,983 root INFO Query executed successfully - UPDATE users SET delay='180' WHERE id=5258854731
+22:11:15,983 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:11:15.983151' WHERE id=5258854731
+22:11:16,229 aiogram.event INFO Update id=663968478 is handled. Duration 329 ms by bot id=7759246153
+22:12:06,954 aiogram.event INFO Update id=663968479 is handled. Duration 338 ms by bot id=7759246153
+22:12:08,354 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=2015855457
+22:12:08,354 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:08.354410' WHERE id=2015855457
+22:12:08,602 aiogram.event INFO Update id=663968480 is handled. Duration 455 ms by bot id=7759246153
+22:12:09,604 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-76' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:69> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 71, in send_weather
+    await bot.send_message(tid, wapi.get_weather(UManager.get(tid)))
+  File "/home/tima/ups_otbor/umanage.py", line 90, in get
+    return self.execute_read_query(f"SELECT city FROM users WHERE id={tid}")[0][0]
+IndexError: list index out of range
+22:12:43,348 root INFO Query executed successfully - UPDATE users SET city='Прага' WHERE id=1647252544
+22:12:43,615 aiogram.event INFO Update id=663968481 is handled. Duration 318 ms by bot id=7759246153
+22:12:45,490 aiogram.event INFO Update id=663968482 is handled. Duration 138 ms by bot id=7759246153
+22:12:46,588 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+22:12:46,634 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:46.588118' WHERE id=1647252544
+22:12:46,852 aiogram.event INFO Update id=663968483 is handled. Duration 354 ms by bot id=7759246153
+22:12:47,853 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:47,855 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:48,18 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:48,19 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:48,20 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:48,287 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:48,473 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:48.399310' WHERE id=1647252544
+22:12:49,475 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:49,476 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:49,632 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:49,632 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:49,633 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:50,63 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:50,327 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:50.274469' WHERE id=1647252544
+22:12:51,329 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:51,330 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:51,488 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:51,489 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:51,489 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:51,772 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:51,997 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:51.938833' WHERE id=1647252544
+22:12:52,998 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:52,999 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:53,128 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:53,129 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:53,130 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:53,415 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:53,600 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:53.530774' WHERE id=1647252544
+22:12:54,601 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:54,602 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:54,734 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:54,735 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:54,735 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:54,986 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:55,172 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:55.128678' WHERE id=1647252544
+22:12:56,174 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:56,175 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:56,312 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:56,313 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:56,313 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:56,631 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:56,778 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:56.730192' WHERE id=1647252544
+22:12:56,940 aiogram.event INFO Update id=663968484 is handled. Duration 306 ms by bot id=7759246153
+22:12:57,779 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:57,780 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:57,927 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:57,928 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:57,929 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:58,201 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:58,401 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:58.350085' WHERE id=1647252544
+22:12:59,401 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:59,402 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:12:59,536 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:12:59,536 root DEBUG GET 'https://api.openweathermap.org/data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:12:59,537 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.openweathermap.org:443
+22:12:59,776 urllib3.connectionpool DEBUG https://api.openweathermap.org:443 "GET /data/2.5/weather?lat=50.0874654&lon=14.4212535&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 499
+22:12:59,965 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:12:59.888278' WHERE id=1647252544
+22:13:00,675 aiogram.dispatcher WARNING Received SIGINT signal
+22:13:00,676 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:13:00,676 aiogram.dispatcher INFO Polling stopped
+22:13:03,920 asyncio DEBUG Using selector: EpollSelector
+22:13:03,920 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:13:03,920 aiogram.dispatcher INFO Start polling
+22:13:04,148 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:13:51,109 aiogram.dispatcher WARNING Received SIGINT signal
+22:13:51,110 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:13:51,110 aiogram.dispatcher INFO Polling stopped
+22:13:54,105 asyncio DEBUG Using selector: EpollSelector
+22:13:54,105 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:13:54,105 aiogram.dispatcher INFO Start polling
+22:13:54,371 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:14:11,183 aiogram.event INFO Update id=663968485 is handled. Duration 400 ms by bot id=7759246153
+22:14:16,163 root INFO Query executed successfully - INSERT INTO users (id, city, timer) VALUES (2015855457, "Прага", '2024-10-10 22:14:16.091400')
+22:14:16,163 root INFO Query executed successfully - UPDATE users SET city='Прага' WHERE id=2015855457
+22:14:16,393 aiogram.event INFO Update id=663968486 is handled. Duration 302 ms by bot id=7759246153
+22:14:19,444 aiogram.event INFO Update id=663968487 is handled. Duration 174 ms by bot id=7759246153
+22:14:21,336 root INFO Query executed successfully - UPDATE users SET delay='5' WHERE id=2015855457
+22:14:21,384 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:14:21.336405' WHERE id=2015855457
+22:14:21,635 aiogram.event INFO Update id=663968488 is handled. Duration 609 ms by bot id=7759246153
+22:14:26,640 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:14:26,642 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:18:59,637 asyncio DEBUG Using selector: EpollSelector
+22:18:59,637 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:18:59,638 aiogram.dispatcher INFO Start polling
+22:18:59,865 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:19:06,413 aiogram.event INFO Update id=663968489 is handled. Duration 252 ms by bot id=7759246153
+22:19:07,816 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+22:19:08,645 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:19:07.816366' WHERE id=1647252544
+22:19:08,846 aiogram.event INFO Update id=663968490 is handled. Duration 1108 ms by bot id=7759246153
+22:19:09,847 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:19:09,849 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:22:28,175 asyncio DEBUG Using selector: EpollSelector
+22:22:28,176 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:22:28,176 aiogram.dispatcher INFO Start polling
+22:22:28,412 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:22:30,293 aiogram.event INFO Update id=663968491 is handled. Duration 268 ms by bot id=7759246153
+22:22:31,253 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+22:22:31,751 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:22:31.253125' WHERE id=1647252544
+22:22:32,36 aiogram.event INFO Update id=663968492 is handled. Duration 881 ms by bot id=7759246153
+22:22:33,37 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:22:33,38 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:27:54,417 asyncio DEBUG Using selector: EpollSelector
+22:27:54,417 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+22:27:54,418 aiogram.dispatcher INFO Start polling
+22:27:54,690 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:27:59,550 aiogram.event INFO Update id=663968493 is handled. Duration 294 ms by bot id=7759246153
+22:28:00,640 root INFO Query executed successfully - UPDATE users SET delay='5' WHERE id=1647252544
+22:28:00,689 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:00.640795' WHERE id=1647252544
+22:28:00,934 aiogram.event INFO Update id=663968494 is handled. Duration 426 ms by bot id=7759246153
+22:28:05,939 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:05,941 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:06,73 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:06,73 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:06,74 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:06,353 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:06,500 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:06.453692' WHERE id=1647252544
+22:28:11,501 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:11,503 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:11,623 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:11,623 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:11,624 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:12,293 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:12,541 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:12.490060' WHERE id=1647252544
+22:28:17,547 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:17,548 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:17,704 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:17,704 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:17,705 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:18,2 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:18,190 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:18.112319' WHERE id=1647252544
+22:28:22,758 aiogram.event INFO Update id=663968495 is handled. Duration 126 ms by bot id=7759246153
+22:28:23,192 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:23,193 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:23,347 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:23,348 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:23,349 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:23,648 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:23,928 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:23.878488' WHERE id=1647252544
+22:28:27,24 root INFO The error 'UNIQUE constraint failed: users.id' occurred in 'INSERT INTO users (id, city, timer) VALUES (2015855457, "Прага", '2024-10-10 22:28:27.023992')'
+22:28:27,24 root INFO Query executed successfully - UPDATE users SET city='Прага' WHERE id=2015855457
+22:28:27,124 aiogram.event INFO Update id=663968496 is handled. Duration 101 ms by bot id=7759246153
+22:28:28,932 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:28,933 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:29,76 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:29,77 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:29,78 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:29,882 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:30,39 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:29.989490' WHERE id=1647252544
+22:28:31,355 aiogram.event INFO Update id=663968497 is handled. Duration 99 ms by bot id=7759246153
+22:28:33,224 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=2015855457
+22:28:33,272 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:33.224221' WHERE id=2015855457
+22:28:33,484 aiogram.event INFO Update id=663968498 is handled. Duration 396 ms by bot id=7759246153
+22:28:34,485 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:34,486 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:34,629 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:34,630 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:34,631 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:36,13 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:36,15 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:36,16 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:36,149 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:36,149 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:36,150 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:36,440 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:36,914 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:36.442413' WHERE id=2015855457
+22:28:37,304 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:37.258839' WHERE id=1647252544
+22:28:37,916 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:37,916 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:38,34 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:38,34 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:38,35 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:38,299 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:38,493 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:38.443987' WHERE id=2015855457
+22:28:39,495 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:39,496 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:39,639 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:39,639 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:39,640 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:40,926 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:41,73 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:41.026210' WHERE id=2015855457
+22:28:42,75 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:42,76 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:42,213 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:42,213 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:42,214 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:42,603 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:42,605 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:42,605 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:42,748 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:42,749 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:42,750 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:43,42 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:43,95 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:43.044407' WHERE id=2015855457
+22:28:43,210 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:43.160991' WHERE id=1647252544
+22:28:44,97 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:44,98 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:44,230 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:44,230 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:44,231 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:45,591 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:46,163 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:45.761498' WHERE id=2015855457
+22:28:47,165 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:47,166 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:47,285 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:47,285 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:47,286 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:47,577 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:47,853 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:47.802227' WHERE id=2015855457
+22:28:48,212 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:48,213 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:48,344 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:48,345 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:48,345 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:48,620 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:48,817 root INFO Query executed successfully - UPDATE users SET timer='2024-10-10 22:28:48.772086' WHERE id=1647252544
+22:28:48,855 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+22:28:48,856 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+22:28:48,989 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+22:28:48,989 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+22:28:48,990 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+22:28:49,638 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+22:28:49,639 aiogram.dispatcher WARNING Received SIGINT signal
+22:28:49,640 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+22:28:49,640 aiogram.dispatcher INFO Polling stopped
+22:28:49,739 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:70> exception=TelegramNetworkError('HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)')>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/usr/lib/python3.10/asyncio/sslproto.py", line 206, in feed_ssldata
+    self._sslobj.unwrap()
+  File "/usr/lib/python3.10/ssl.py", line 979, in unwrap
+    return self._sslobj.shutdown()
+ssl.SSLError: [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 170, in make_request
+    async with session.post(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/client.py", line 1197, in __aenter__
+    self._resp = await self._coro
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/client.py", line 608, in _request
+    await resp.start(conn)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 976, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/home/tima/.local/lib/python3.10/site-packages/aiohttp/streams.py", line 640, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 72, in send_weather
+    await bot.send_message(tid, wapi.get_weather(UManager.get(tid)))
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/bot.py", line 2889, in send_message
+    return await self(call, request_timeout=request_timeout)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/bot.py", line 480, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/client/session/aiohttp.py", line 177, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2702)
+15:39:36,425 asyncio DEBUG Using selector: EpollSelector
+15:39:36,430 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer TEXT NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+15:39:36,430 aiogram.dispatcher INFO Start polling
+15:39:36,669 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+15:39:38,21 aiogram.dispatcher WARNING Received SIGINT signal
+15:39:38,21 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+15:39:38,21 aiogram.dispatcher INFO Polling stopped
+16:17:55,168 asyncio DEBUG Using selector: EpollSelector
+16:17:55,170 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+16:17:55,170 aiogram.dispatcher INFO Start polling
+16:17:55,418 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:18:09,436 aiogram.event INFO Update id=663968499 is handled. Duration 264 ms by bot id=7759246153
+16:18:11,497 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+16:18:11,545 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 16:18:11' WHERE id=1647252544
+16:18:11,790 aiogram.event INFO Update id=663968500 is handled. Duration 714 ms by bot id=7759246153
+16:18:11,790 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 16:18:11' WHERE id=1647252544
+16:19:11,791 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:75> exception=AttributeError("'UserManager' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 84, in send_weather
+    UManager.update_timer(user_id)
+AttributeError: 'UserManager' object has no attribute 'get'
+16:20:14,22 aiogram.dispatcher WARNING Received SIGINT signal
+16:20:14,23 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:20:14,23 aiogram.dispatcher INFO Polling stopped
+16:20:17,472 asyncio DEBUG Using selector: EpollSelector
+16:20:17,473 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+16:20:17,473 aiogram.dispatcher INFO Start polling
+16:20:17,708 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:20:20,666 aiogram.event INFO Update id=663968501 is handled. Duration 271 ms by bot id=7759246153
+16:20:21,759 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+16:20:21,823 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 16:20:21' WHERE id=1647252544
+16:20:22,42 aiogram.event INFO Update id=663968502 is handled. Duration 379 ms by bot id=7759246153
+16:21:22,54 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Прага&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+16:21:22,56 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+16:21:22,225 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9F%D1%80%D0%B0%D0%B3%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1828
+16:21:22,225 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+16:21:22,227 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+16:21:22,508 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=50.0874654&longitude=14.4212535&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+16:21:23,416 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 16:21:22' WHERE id=1647252544
+16:31:23,186 aiogram.dispatcher WARNING Received SIGINT signal
+16:31:23,187 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:31:23,187 aiogram.dispatcher INFO Polling stopped
+16:42:31,188 asyncio DEBUG Using selector: EpollSelector
+16:42:31,189 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+16:42:31,190 aiogram.dispatcher INFO Start polling
+16:42:31,455 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:42:32,737 aiogram.dispatcher WARNING Received SIGINT signal
+16:42:32,737 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:42:32,737 aiogram.dispatcher INFO Polling stopped
+17:07:58,657 asyncio DEBUG Using selector: EpollSelector
+17:07:59,388 root INFO Query executed successfully -  DROP TABLE users; 
+17:07:59,437 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:07:59,437 aiogram.dispatcher INFO Start polling
+17:07:59,672 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:08:29,948 aiogram.event INFO Update id=663968503 is handled. Duration 329 ms by bot id=7759246153
+17:08:33,497 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:08:33,497 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:08:33' WHERE id=1647252544
+17:08:33,703 aiogram.event INFO Update id=663968504 is handled. Duration 290 ms by bot id=7759246153
+17:08:53,829 root INFO Query executed successfully - INSERT INTO users (id, city, timer) VALUES (1647252544, "Екатеринбург", '2024-10-12 17:08:53')
+17:08:53,829 root INFO Query executed successfully - UPDATE users SET city='Екатеринбург' WHERE id=1647252544
+17:08:54,155 aiogram.event INFO Update id=663968505 is handled. Duration 378 ms by bot id=7759246153
+17:08:55,641 aiogram.event INFO Update id=663968506 is handled. Duration 106 ms by bot id=7759246153
+17:08:57,29 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:08:57,78 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:08:57' WHERE id=1647252544
+17:08:57,457 aiogram.event INFO Update id=663968507 is handled. Duration 928 ms by bot id=7759246153
+17:09:33,711 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:09:33,713 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:10:33,865 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<send_weather() done, defined at /home/tima/ups_otbor/main.py:77> exception=ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 446, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 441, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 446, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 441, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/usr/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 85, in send_weather
+    await bot.send_message(user_id, wapi.get_weather(UManager.get_city(user_id)))
+  File "/home/tima/ups_otbor/api.py", line 36, in get_weather
+    lat, lon = self.get_coords(city)
+  File "/home/tima/ups_otbor/api.py", line 25, in get_coords
+    r = requests.get(f"http://api.openweathermap.org/geo/1.0/direct?q={city.capitalize()}&&appid={self.api_key}")
+  File "/home/tima/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+17:10:34,105 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:10:34,106 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:18:45,652 asyncio DEBUG Using selector: EpollSelector
+17:18:45,653 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:18:45,654 aiogram.dispatcher INFO Start polling
+17:18:45,896 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:18:54,76 aiogram.event INFO Update id=663968508 is handled. Duration 376 ms by bot id=7759246153
+17:18:55,82 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:18:55,133 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:18:55' WHERE id=1647252544
+17:18:55,355 aiogram.event INFO Update id=663968509 is handled. Duration 362 ms by bot id=7759246153
+17:19:55,365 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:19:55,367 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:19:55,550 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+17:19:55,551 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+17:19:55,552 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+17:19:55,835 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+17:19:56,676 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:19:56' WHERE id=1647252544
+17:21:08,115 aiogram.dispatcher WARNING Received SIGINT signal
+17:21:08,116 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:21:08,116 aiogram.dispatcher INFO Polling stopped
+17:22:35,604 asyncio DEBUG Using selector: EpollSelector
+17:22:35,606 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:22:35,606 aiogram.dispatcher INFO Start polling
+17:22:35,843 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:22:43,89 aiogram.dispatcher WARNING Received SIGINT signal
+17:22:43,89 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:22:43,89 aiogram.dispatcher INFO Polling stopped
+17:22:46,415 asyncio DEBUG Using selector: EpollSelector
+17:22:46,416 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:22:46,416 aiogram.dispatcher INFO Start polling
+17:22:46,645 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:26:50,536 aiogram.dispatcher WARNING Received SIGINT signal
+17:26:50,537 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:26:50,537 aiogram.dispatcher INFO Polling stopped
+17:26:53,638 asyncio DEBUG Using selector: EpollSelector
+17:26:53,639 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:26:53,639 aiogram.dispatcher INFO Start polling
+17:26:53,879 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:27:06,946 aiogram.dispatcher WARNING Received SIGINT signal
+17:27:06,946 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:27:06,946 aiogram.dispatcher INFO Polling stopped
+17:27:09,971 asyncio DEBUG Using selector: EpollSelector
+17:27:09,973 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:27:09,973 aiogram.dispatcher INFO Start polling
+17:27:10,199 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:27:43,344 aiogram.dispatcher WARNING Received SIGINT signal
+17:27:43,345 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:27:43,345 aiogram.dispatcher INFO Polling stopped
+17:27:48,891 asyncio DEBUG Using selector: EpollSelector
+17:27:48,892 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:27:48,893 aiogram.dispatcher INFO Start polling
+17:27:49,126 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:27:51,454 aiogram.dispatcher WARNING Received SIGINT signal
+17:27:51,454 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:27:51,454 aiogram.dispatcher INFO Polling stopped
+17:28:17,562 asyncio DEBUG Using selector: EpollSelector
+17:28:17,563 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:28:17,564 aiogram.dispatcher INFO Start polling
+17:28:17,805 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:28:21,219 aiogram.dispatcher WARNING Received SIGINT signal
+17:28:21,219 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:28:21,219 aiogram.dispatcher INFO Polling stopped
+17:28:46,13 asyncio DEBUG Using selector: EpollSelector
+17:28:46,14 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:28:46,15 aiogram.dispatcher INFO Start polling
+17:28:46,246 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:28:46,654 aiogram.event INFO Update id=663968510 is handled. Duration 306 ms by bot id=7759246153
+17:28:47,882 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:28:47,936 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:28:47' WHERE id=1647252544
+17:28:48,241 aiogram.event INFO Update id=663968511 is handled. Duration 477 ms by bot id=7759246153
+17:29:09,794 aiogram.dispatcher WARNING Received SIGINT signal
+17:29:09,795 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:29:09,795 aiogram.dispatcher INFO Polling stopped
+17:31:33,5 asyncio DEBUG Using selector: EpollSelector
+17:31:33,7 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:31:33,7 aiogram.dispatcher INFO Start polling
+17:31:33,253 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:31:36,625 aiogram.event INFO Update id=663968512 is handled. Duration 268 ms by bot id=7759246153
+17:31:37,565 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:31:37,565 aiogram.event INFO Update id=663968513 is not handled. Duration 83 ms by bot id=7759246153
+17:31:37,565 aiogram.event ERROR Cause exception while process update id=663968513 by bot id=7759246153
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/ups_otbor/main.py", line 68, in process_callback_button1
+    UManager.update_timer(callback_query.from_user.id, int(callback_query.data[6:]))
+  File "/home/tima/ups_otbor/umanage.py", line 82, in update_timer
+    self.execute_query(f"UPDATE users SET timer='{(datetime.datetime.now() + timer).strftime(FORMAT)}' WHERE id={tid}")
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+17:31:41,658 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:31:41,658 aiogram.event INFO Update id=663968514 is not handled. Duration 81 ms by bot id=7759246153
+17:31:41,658 aiogram.event ERROR Cause exception while process update id=663968514 by bot id=7759246153
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/ups_otbor/main.py", line 68, in process_callback_button1
+    UManager.update_timer(callback_query.from_user.id, int(callback_query.data[6:]))
+  File "/home/tima/ups_otbor/umanage.py", line 82, in update_timer
+    self.execute_query(f"UPDATE users SET timer='{(datetime.datetime.now() + timer).strftime(FORMAT)}' WHERE id={tid}")
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+17:31:46,809 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:31:46,809 aiogram.event INFO Update id=663968515 is not handled. Duration 84 ms by bot id=7759246153
+17:31:46,809 aiogram.event ERROR Cause exception while process update id=663968515 by bot id=7759246153
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+Traceback (most recent call last):
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/home/tima/.local/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/home/tima/ups_otbor/main.py", line 68, in process_callback_button1
+    UManager.update_timer(callback_query.from_user.id, int(callback_query.data[6:]))
+  File "/home/tima/ups_otbor/umanage.py", line 82, in update_timer
+    self.execute_query(f"UPDATE users SET timer='{(datetime.datetime.now() + timer).strftime(FORMAT)}' WHERE id={tid}")
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+17:31:48,645 aiogram.dispatcher WARNING Received SIGINT signal
+17:31:48,646 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:31:48,646 aiogram.dispatcher INFO Polling stopped
+17:33:13,474 asyncio DEBUG Using selector: EpollSelector
+17:33:13,476 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:33:13,476 aiogram.dispatcher INFO Start polling
+17:33:13,711 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:33:15,748 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:33:16,474 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:33:16' WHERE id=1647252544
+17:33:16,751 aiogram.event INFO Update id=663968516 is handled. Duration 1257 ms by bot id=7759246153
+17:33:48,757 aiogram.dispatcher WARNING Received SIGINT signal
+17:33:48,757 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:33:48,757 aiogram.dispatcher INFO Polling stopped
+17:34:07,395 asyncio DEBUG Using selector: EpollSelector
+17:34:07,396 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:34:07,396 aiogram.dispatcher INFO Start polling
+17:34:07,714 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:34:11,502 aiogram.event INFO Update id=663968517 is handled. Duration 300 ms by bot id=7759246153
+17:34:12,791 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:34:12,844 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:34:13' WHERE id=1647252544
+17:34:13,127 aiogram.event INFO Update id=663968518 is handled. Duration 441 ms by bot id=7759246153
+17:34:38,116 aiogram.dispatcher WARNING Received SIGINT signal
+17:34:38,116 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:34:38,116 aiogram.dispatcher INFO Polling stopped
+17:35:10,273 asyncio DEBUG Using selector: EpollSelector
+17:35:10,274 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:35:10,275 aiogram.dispatcher INFO Start polling
+17:35:10,526 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:35:12,878 aiogram.event INFO Update id=663968519 is handled. Duration 269 ms by bot id=7759246153
+17:35:13,742 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:35:13,789 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:36:13' WHERE id=1647252544
+17:35:14,183 aiogram.event INFO Update id=663968520 is handled. Duration 586 ms by bot id=7759246153
+17:36:24,648 aiogram.dispatcher WARNING Received SIGINT signal
+17:36:24,649 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:36:24,649 aiogram.dispatcher INFO Polling stopped
+17:38:34,730 asyncio DEBUG Using selector: EpollSelector
+17:38:34,731 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:38:34,731 aiogram.dispatcher INFO Start polling
+17:38:34,734 root DEBUG timed
+17:38:34,971 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:38:37,439 aiogram.dispatcher WARNING Received SIGINT signal
+17:38:37,439 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:38:37,439 aiogram.dispatcher INFO Polling stopped
+17:38:54,377 asyncio DEBUG Using selector: EpollSelector
+17:38:54,379 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:38:54,379 aiogram.dispatcher INFO Start polling
+17:38:54,382 root DEBUG timed
+17:38:54,506 root DEBUG timed
+17:38:54,506 root DEBUG timed
+17:38:54,506 root DEBUG timed
+17:38:54,506 root DEBUG timed
+17:38:54,506 root DEBUG timed
+17:38:54,506 root DEBUG timed
+17:38:54,506 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,507 root DEBUG timed
+17:38:54,508 root DEBUG timed
+17:38:54,508 root DEBUG timed
+17:38:54,508 root DEBUG timed
+17:38:54,508 root DEBUG timed
+17:38:54,508 root DEBUG timed
+17:38:54,508 root DEBUG timed
+17:39:26,989 asyncio DEBUG Using selector: EpollSelector
+17:39:26,990 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:39:26,991 aiogram.dispatcher INFO Start polling
+17:39:26,992 root DEBUG timed
+17:39:27,220 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:39:27,615 aiogram.event INFO Update id=663968521 is handled. Duration 294 ms by bot id=7759246153
+17:39:27,994 root DEBUG timed
+17:39:28,509 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:39:28,569 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:40:28' WHERE id=1647252544
+17:39:28,847 aiogram.event INFO Update id=663968522 is handled. Duration 423 ms by bot id=7759246153
+17:40:28,2 root DEBUG timed
+17:40:29,2 root DEBUG timed
+17:40:30,3 root DEBUG timed
+17:40:31,4 root DEBUG timed
+17:40:32,6 root DEBUG timed
+17:46:44,758 asyncio DEBUG Using selector: EpollSelector
+17:46:44,759 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:46:44,760 aiogram.dispatcher INFO Start polling
+17:46:44,762 root DEBUG timed
+17:46:45,128 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:46:45,764 root DEBUG timed
+17:46:46,765 root DEBUG timed
+17:46:47,54 aiogram.dispatcher WARNING Received SIGINT signal
+17:46:47,55 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:46:47,55 aiogram.dispatcher INFO Polling stopped
+17:47:02,777 asyncio DEBUG Using selector: EpollSelector
+17:47:02,778 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:47:02,778 aiogram.dispatcher INFO Start polling
+17:47:03,14 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:47:06,247 aiogram.dispatcher WARNING Received SIGINT signal
+17:47:06,247 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:47:06,247 aiogram.dispatcher INFO Polling stopped
+17:47:42,17 asyncio DEBUG Using selector: EpollSelector
+17:47:42,19 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:47:42,19 aiogram.dispatcher INFO Start polling
+17:47:42,248 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:47:44,352 aiogram.dispatcher WARNING Received SIGINT signal
+17:47:44,353 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:47:44,353 aiogram.dispatcher INFO Polling stopped
+17:48:01,724 asyncio DEBUG Using selector: EpollSelector
+17:48:01,725 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:48:01,726 aiogram.dispatcher INFO Start polling
+17:48:01,959 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:48:10,211 aiogram.event INFO Update id=663968523 is handled. Duration 322 ms by bot id=7759246153
+17:48:11,58 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:48:11,637 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:49:11' WHERE id=1647252544
+17:48:11,904 aiogram.event INFO Update id=663968524 is handled. Duration 931 ms by bot id=7759246153
+17:48:37,331 aiogram.dispatcher WARNING Received SIGINT signal
+17:48:37,331 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:48:37,331 aiogram.dispatcher INFO Polling stopped
+17:48:57,302 asyncio DEBUG Using selector: EpollSelector
+17:48:57,303 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:48:57,304 aiogram.dispatcher INFO Start polling
+17:48:57,540 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:49:00,361 aiogram.event INFO Update id=663968525 is handled. Duration 276 ms by bot id=7759246153
+17:49:01,467 root INFO Query executed successfully - UPDATE users SET delay='1' WHERE id=1647252544
+17:49:01,513 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:50:01' WHERE id=1647252544
+17:49:01,744 aiogram.event INFO Update id=663968526 is handled. Duration 368 ms by bot id=7759246153
+17:49:11,13 root DEBUG timed
+17:50:01,49 root DEBUG timed
+17:50:01,49 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:50:01,52 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:50:16,160 root WARNING API is not responding
+17:50:16,210 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:51:16' WHERE id=1647252544
+17:51:16,58 root DEBUG timed
+17:51:16,59 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:51:16,60 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:51:31,148 root WARNING API is not responding
+17:51:31,202 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:52:31' WHERE id=1647252544
+17:52:31,58 root DEBUG timed
+17:52:31,59 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:52:31,60 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:52:46,154 root WARNING API is not responding
+17:52:46,205 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:53:46' WHERE id=1647252544
+17:53:46,42 root DEBUG timed
+17:53:46,42 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:53:46,43 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:54:01,117 root WARNING API is not responding
+17:54:01,164 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 17:55:01' WHERE id=1647252544
+17:54:16,923 aiogram.dispatcher WARNING Received SIGINT signal
+17:54:16,924 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:54:16,924 aiogram.dispatcher INFO Polling stopped
+17:59:14,127 asyncio DEBUG Using selector: EpollSelector
+17:59:14,128 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+17:59:14,129 aiogram.dispatcher INFO Start polling
+17:59:14,131 root DEBUG timed
+17:59:14,132 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:59:14,134 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:59:14,366 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:59:29,233 root WARNING API is not responding
+17:59:29,281 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 18:00:29' WHERE id=1647252544
+17:59:41,799 aiogram.dispatcher WARNING Received SIGINT signal
+17:59:41,799 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:59:41,799 aiogram.dispatcher INFO Polling stopped
+18:00:20,302 asyncio DEBUG Using selector: EpollSelector
+18:00:20,303 root INFO Query executed successfully -  CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); 
+18:00:20,304 aiogram.dispatcher INFO Start polling
+18:00:20,573 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:00:29,8 root DEBUG timed
+18:00:29,9 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:00:29,11 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:00:44,111 root WARNING API is not responding
+18:00:44,725 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 18:01:44' WHERE id=1647252544
+18:01:44,46 root DEBUG timed
+18:01:44,46 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:01:44,47 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:01:59,142 root WARNING API is not responding
+18:01:59,486 root INFO Query executed successfully - UPDATE users SET timer='2024-10-12 18:02:59' WHERE id=1647252544
+18:02:38,915 aiogram.dispatcher WARNING Received SIGINT signal
+18:02:38,915 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:02:38,915 aiogram.dispatcher INFO Polling stopped
+18:03:57,834 asyncio DEBUG Using selector: EpollSelector
+18:03:57,836 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:03:57,836 aiogram.dispatcher INFO Start polling
+18:03:57,838 root DEBUG timed
+18:03:57,839 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:03:57,840 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:03:57,994 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/1.1" 200 1085
+18:03:57,995 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:03:57,996 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:03:58,81 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:03:58,277 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/1.1" 200 None
+18:03:58,332 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:04:58' WHERE id=1647252544"
+18:04:06,709 aiogram.dispatcher WARNING Received SIGINT signal
+18:04:06,710 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:04:06,710 aiogram.dispatcher INFO Polling stopped
+18:05:26,949 asyncio DEBUG Using selector: EpollSelector
+18:05:26,950 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:05:26,951 aiogram.dispatcher INFO Start polling
+18:05:27,221 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:28,28 aiogram.dispatcher WARNING Received SIGINT signal
+18:05:28,28 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:28,29 aiogram.dispatcher INFO Polling stopped
+18:05:55,466 asyncio DEBUG Using selector: EpollSelector
+18:05:55,467 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:05:55,468 aiogram.dispatcher INFO Start polling
+18:05:55,694 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:56,491 aiogram.dispatcher WARNING Received SIGINT signal
+18:05:56,492 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:56,492 aiogram.dispatcher INFO Polling stopped
+18:07:01,116 asyncio DEBUG Using selector: EpollSelector
+18:07:01,117 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:07:01,118 aiogram.dispatcher INFO Start polling
+18:07:01,120 root DEBUG timed
+18:07:01,355 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:07:02,556 aiogram.dispatcher WARNING Received SIGINT signal
+18:07:02,557 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:07:02,557 aiogram.dispatcher INFO Polling stopped
+18:15:33,19 asyncio DEBUG Using selector: EpollSelector
+18:22:08,948 asyncio DEBUG Using selector: EpollSelector
+18:22:08,949 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:22:08,949 aiogram.dispatcher INFO Start polling
+18:22:08,951 root DEBUG timed
+18:22:08,951 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:22:08,952 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:22:09,139 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:22:09,139 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:22:09,140 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:22:09,368 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:22:09,593 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:22:09,950 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:23:09' WHERE id=1647252544"
+18:23:08,779 aiogram.dispatcher WARNING Received SIGINT signal
+18:23:08,780 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:23:08,780 aiogram.dispatcher INFO Polling stopped
+18:23:09,0 root DEBUG timed
+18:23:09,1 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:23:09,2 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:23:09,140 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:23:09,141 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:23:09,142 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:23:09,372 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:23:09,870 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:24:09' WHERE id=1647252544"
+18:23:42,850 asyncio DEBUG Using selector: EpollSelector
+18:23:42,851 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:23:42,851 aiogram.dispatcher INFO Start polling
+18:23:43,84 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:24:09,6 root DEBUG timed
+18:24:09,6 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:24:09,8 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:24:09,163 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:24:09,163 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:24:09,164 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:24:09,393 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:24:09,934 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:25:09' WHERE id=1647252544"
+18:24:15,262 aiogram.dispatcher WARNING Received SIGINT signal
+18:24:15,263 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:24:15,263 aiogram.dispatcher INFO Polling stopped
+18:25:39,948 asyncio DEBUG Using selector: EpollSelector
+18:25:39,948 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:25:39,949 aiogram.dispatcher INFO Start polling
+18:25:39,950 root DEBUG timed
+18:25:39,950 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:25:39,951 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:25:55,51 root WARNING API is not responding. i think its dead xd
+18:25:55,763 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:26:55' WHERE id=1647252544"
+18:25:55,999 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:26:06,795 aiogram.dispatcher WARNING Received SIGINT signal
+18:26:06,796 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:26:06,796 aiogram.dispatcher INFO Polling stopped
+18:26:55,39 root DEBUG timed
+18:26:55,40 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:26:55,41 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:27:10,128 root WARNING API is not responding. i think its dead xd
+18:27:10,293 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:28:10' WHERE id=1647252544"
+18:28:10,59 root DEBUG timed
+18:28:10,59 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:28:10,60 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:28:25,152 root WARNING API is not responding. i think its dead xd
+18:28:25,213 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:29:25' WHERE id=1647252544"
+18:29:25,19 root DEBUG timed
+18:29:25,20 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:29:25,21 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:29:40,119 root WARNING API is not responding. i think its dead xd
+18:29:40,627 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:30:40' WHERE id=1647252544"
+18:34:32,751 asyncio DEBUG Using selector: EpollSelector
+18:34:32,752 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:34:32,752 aiogram.dispatcher INFO Start polling
+18:34:32,753 root DEBUG timed
+18:34:32,753 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:34:32,754 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:34:47,840 root WARNING API is not responding. i think its dead xd
+18:34:47,890 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:35:47' WHERE id=1647252544"
+18:34:47,891 aiogram.dispatcher WARNING Received SIGINT signal
+18:34:47,891 aiogram.dispatcher WARNING Received SIGINT signal
+18:34:47,891 aiogram.dispatcher WARNING Received SIGINT signal
+18:34:47,891 aiogram.dispatcher WARNING Received SIGINT signal
+18:34:47,891 aiogram.dispatcher INFO Polling stopped
+18:36:05,244 asyncio DEBUG Using selector: EpollSelector
+18:36:05,244 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:36:05,244 aiogram.dispatcher INFO Start polling
+18:36:05,246 root DEBUG timed
+18:36:05,246 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:36:05,247 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:36:20,342 root WARNING API is not responding. i think its dead xd
+18:36:20,434 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:37:20' WHERE id=1647252544"
+18:36:20,669 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:36:25,114 aiogram.dispatcher WARNING Received SIGINT signal
+18:36:25,114 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:36:25,114 aiogram.dispatcher INFO Polling stopped
+18:37:20,49 root DEBUG timed
+18:37:20,49 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:37:20,51 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:38:40,899 asyncio DEBUG Using selector: EpollSelector
+18:38:40,900 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:38:40,900 aiogram.dispatcher INFO Start polling
+18:38:40,901 root DEBUG timed
+18:38:40,902 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:38:40,902 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:38:55,992 root WARNING API is not responding. i think its dead xd
+18:38:56,746 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:39:55' WHERE id=1647252544"
+18:38:56,747 aiogram.dispatcher WARNING Received SIGINT signal
+18:38:56,747 aiogram.dispatcher WARNING Received SIGINT signal
+18:38:56,747 aiogram.dispatcher WARNING Received SIGINT signal
+18:38:56,747 aiogram.dispatcher INFO Polling stopped
+18:39:34,569 asyncio DEBUG Using selector: EpollSelector
+18:39:34,569 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:39:34,569 aiogram.dispatcher INFO Start polling
+18:39:34,792 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:39:38,760 aiogram.dispatcher WARNING Received SIGINT signal
+18:39:38,761 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:39:38,761 aiogram.dispatcher INFO Polling stopped
+18:39:55,8 root DEBUG timed
+18:39:55,9 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:39:55,10 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:40:10,106 root WARNING API is not responding. i think its dead xd
+18:40:10,494 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:41:10' WHERE id=1647252544"
+18:40:45,997 asyncio DEBUG Using selector: EpollSelector
+18:40:45,997 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:40:45,997 aiogram.dispatcher INFO Start polling
+18:40:46,224 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:40:57,966 asyncio DEBUG Using selector: EpollSelector
+18:40:57,966 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:40:57,966 aiogram.dispatcher INFO Start polling
+18:40:58,194 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:41:00,111 aiogram.dispatcher WARNING Received SIGINT signal
+18:41:00,112 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:41:00,112 aiogram.dispatcher INFO Polling stopped
+18:41:27,189 asyncio DEBUG Using selector: EpollSelector
+18:41:27,190 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:41:27,190 aiogram.dispatcher INFO Start polling
+18:41:27,192 root DEBUG timed
+18:41:27,192 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:41:27,192 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:41:42,277 root WARNING API is not responding. i think its dead xd
+18:41:42,326 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:42:42' WHERE id=1647252544"
+18:41:42,327 aiogram.dispatcher WARNING Received SIGINT signal
+18:41:42,327 aiogram.dispatcher WARNING Received SIGINT signal
+18:41:42,327 aiogram.dispatcher WARNING Received SIGINT signal
+18:41:42,327 aiogram.dispatcher WARNING Received SIGINT signal
+18:41:42,327 aiogram.dispatcher WARNING Received SIGINT signal
+18:41:42,328 aiogram.dispatcher INFO Polling stopped
+18:44:06,497 asyncio DEBUG Using selector: EpollSelector
+18:44:06,498 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:44:06,498 aiogram.dispatcher INFO Start polling
+18:44:06,499 root DEBUG timed
+18:44:06,499 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:44:06,500 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:44:06,677 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:44:06,677 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:44:06,678 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:44:06,915 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:44:07,157 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:44:07,754 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:45:07' WHERE id=1647252544"
+18:44:09,857 aiogram.dispatcher WARNING Received SIGINT signal
+18:44:09,858 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:44:09,858 aiogram.dispatcher INFO Polling stopped
+18:44:32,547 asyncio DEBUG Using selector: EpollSelector
+18:44:32,547 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:44:32,548 aiogram.dispatcher INFO Start polling
+18:44:32,800 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:45:07,4 root DEBUG timed
+18:45:07,4 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:45:07,6 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:45:07,271 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:45:07,272 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:45:07,273 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:45:07,502 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:45:07,828 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:46:07' WHERE id=1647252544"
+18:45:12,342 aiogram.dispatcher WARNING Received SIGINT signal
+18:45:12,342 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:45:12,343 aiogram.dispatcher INFO Polling stopped
+18:45:37,447 asyncio DEBUG Using selector: EpollSelector
+18:45:37,447 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:45:37,448 aiogram.dispatcher INFO Start polling
+18:45:37,674 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:45:44,419 aiogram.event INFO Update id=663968527 is handled. Duration 267 ms by bot id=7759246153
+18:45:51,711 root INFO Query executed successfully - "INSERT INTO users (id, city, timer) VALUES (2015855457, "Москва", '2024-10-12 18:45:51')"
+18:45:51,711 root INFO Query executed successfully - "UPDATE users SET city='Москва' WHERE id=2015855457"
+18:45:51,896 aiogram.event INFO Update id=663968528 is handled. Duration 515 ms by bot id=7759246153
+18:46:02,801 aiogram.event INFO Update id=663968529 is handled. Duration 98 ms by bot id=7759246153
+18:46:05,326 root INFO Query executed successfully - "UPDATE users SET delay='5' WHERE id=2015855457"
+18:46:05,376 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:51:05' WHERE id=2015855457"
+18:46:05,724 aiogram.event INFO Update id=663968530 is handled. Duration 746 ms by bot id=7759246153
+18:46:07,2 root DEBUG timed
+18:46:07,2 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:46:07,3 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:46:07,164 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:46:07,165 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:46:07,166 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:46:07,393 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:46:07,590 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:47:07' WHERE id=1647252544"
+18:46:34,233 aiogram.event INFO Update id=663968531 is handled. Duration 274 ms by bot id=7759246153
+18:46:36,949 root INFO Query executed successfully - "UPDATE users SET delay='1' WHERE id=2015855457"
+18:46:36,998 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:47:36' WHERE id=2015855457"
+18:46:37,228 aiogram.event INFO Update id=663968532 is handled. Duration 1476 ms by bot id=7759246153
+18:47:07,1 root DEBUG timed
+18:47:07,1 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:47:07,3 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:47:07,155 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:47:07,156 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:47:07,157 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:47:07,383 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:47:07,697 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:48:07' WHERE id=1647252544"
+18:47:36,10 root DEBUG timed
+18:47:36,10 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Москва&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:47:36,11 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:47:36,161 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 2413
+18:47:36,163 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:47:36,164 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:47:36,405 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:47:36,788 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:48:36' WHERE id=2015855457"
+18:48:04,254 aiogram.event INFO Update id=663968533 is handled. Duration 255 ms by bot id=7759246153
+18:48:07,3 root DEBUG timed
+18:48:07,3 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:48:07,4 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:48:07,155 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:48:07,156 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:48:07,157 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:48:07,393 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:48:07,608 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:49:07' WHERE id=1647252544"
+18:48:36,2 root DEBUG timed
+18:48:36,3 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Москва&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:48:36,4 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:48:36,152 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 2413
+18:48:36,153 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:48:36,154 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:48:36,396 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:48:36,813 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:49:36' WHERE id=2015855457"
+18:49:07,2 root DEBUG timed
+18:49:07,2 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:49:07,3 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:49:07,136 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:49:07,137 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:49:07,138 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:49:07,374 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:49:07,695 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:50:07' WHERE id=1647252544"
+18:49:23,734 aiogram.dispatcher WARNING Received SIGINT signal
+18:49:23,734 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:49:23,734 aiogram.dispatcher INFO Polling stopped
+18:51:04,433 asyncio DEBUG Using selector: EpollSelector
+18:51:04,433 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+18:51:04,434 aiogram.dispatcher INFO Start polling
+18:51:04,435 root DEBUG timed
+18:51:04,435 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:51:04,436 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:51:04,575 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+18:51:04,575 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:51:04,576 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:51:04,818 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:51:05,57 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:51:05,164 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:52:05' WHERE id=1647252544"
+18:51:05,164 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Москва&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+18:51:05,166 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+18:51:05,304 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 2413
+18:51:05,305 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+18:51:05,306 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+18:51:05,542 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+18:51:05,722 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:52:05' WHERE id=2015855457"
+18:51:05,836 aiogram.event INFO Update id=663968534 is handled. Duration 274 ms by bot id=7759246153
+18:51:07,214 aiogram.event INFO Update id=663968535 is handled. Duration 96 ms by bot id=7759246153
+18:51:13,373 aiogram.event INFO Update id=663968536 is handled. Duration 150 ms by bot id=7759246153
+18:51:15,392 root INFO Query executed successfully - "UPDATE users SET delay='5' WHERE id=1647252544"
+18:51:15,441 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 18:51:15' WHERE id=1647252544"
+18:51:15,857 aiogram.event INFO Update id=663968537 is handled. Duration 1179 ms by bot id=7759246153
+18:51:21,586 aiogram.dispatcher WARNING Received SIGINT signal
+18:51:21,586 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:51:21,586 aiogram.dispatcher INFO Polling stopped
+19:07:04,257 asyncio DEBUG Using selector: EpollSelector
+19:07:04,258 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+19:07:04,258 aiogram.dispatcher INFO Start polling
+19:07:04,259 root DEBUG timed
+19:07:04,259 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+19:07:04,260 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+19:07:04,530 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+19:07:04,530 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+19:07:04,531 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+19:07:04,837 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+19:07:05,90 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+19:07:05,287 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 19:12:05' WHERE id=1647252544"
+19:07:05,288 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Москва&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+19:07:05,289 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+19:07:05,472 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 2413
+19:07:05,473 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+19:07:05,474 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+19:07:05,702 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+19:07:05,944 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 19:08:05' WHERE id=2015855457"
+19:07:05,984 aiogram.event INFO Update id=663968538 is handled. Duration 795 ms by bot id=7759246153
+19:07:10,955 aiogram.event INFO Update id=663968539 is handled. Duration 107 ms by bot id=7759246153
+19:07:16,385 root INFO Query executed successfully - "UPDATE users SET delay='1' WHERE id=1647252544"
+19:07:16,434 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 19:07:16' WHERE id=1647252544"
+19:07:16,743 aiogram.event INFO Update id=663968540 is handled. Duration 1055 ms by bot id=7759246153
+19:07:17,436 root DEBUG timed
+19:07:17,436 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+19:07:17,437 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+19:07:17,585 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+19:07:17,586 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+19:07:17,587 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+19:07:17,817 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+19:07:18,67 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-12 19:08:18' WHERE id=1647252544"
+19:07:21,494 aiogram.dispatcher WARNING Received SIGINT signal
+19:07:21,495 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+19:07:21,495 aiogram.dispatcher INFO Polling stopped
