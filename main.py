@@ -6,6 +6,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 import requests
 
 import logging
+import argparse
 
 import asyncio
 import signal
@@ -20,12 +21,14 @@ from umanage import UserManager
 
 START_TEXT = """
 Привет! Напиши в чат город, в котором ты бы хотел узнать погоду
-Напиши /help, чтобы узнать команды"""
+Напиши /help, чтобы узнать команды
+Напиши /unreg, чтобы отписаться от уведомлений"""
 
 HELP_TEXT = """WeatherBoy 1.0
 [город] - выбрать город
 /setdelay - выбрать интервал между отправками погоды
 /help - помощь
+/unreg - отписаться от уведомлений
 """
 
 OPENWEATHER_API_CODE = "2cfb820c66102664ba3d1ec88b0b00bb"
@@ -59,6 +62,11 @@ async def help(message: types.Message) -> None:
 @dp.message(Command(commands=["setdelay"]))
 async def setdelay(message: types.Message) -> None:
     await message.reply("Выберите частоту отправки погоды:", reply_markup=inline_kb_delay)
+
+@dp.message(Command(commands=["unreg"]))
+async def unreg(message: types.Message) -> None:
+    UManager.execute_query(f"DELETE FROM users WHERE id={message.from_user.id}")
+    await message.answer("Уведомления отключены")
 
 @dp.message()
 async def setcity(message: types.Message) -> None:
@@ -104,7 +112,7 @@ async def eloop() -> None:
     global FLAG_RUNNING
     while True:
         us = UManager.get_userlist()
-        mn = min(list(map(lambda x: datetime.datetime.strptime(x[2], FORMAT), us)))
+        mn = min(list(map(lambda x: datetime.datetime.strptime(x[2], FORMAT), us)) + [datetime.datetime.fromtimestamp(datetime.datetime.now().timestamp() + 1800)])
         print(mn)
         FLAG_RUNNING = True
         await sleep(max((mn - datetime.datetime.now()).total_seconds(), 0))
@@ -129,6 +137,13 @@ async def main():
                     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
                     datefmt='%H:%M:%S',
                     level=logging.DEBUG)
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-d", "--drop", help="-d(--drop): дропнуть базу данных и создать пустую")
+    args = parser.parse_args()
+    if args.drop == "1":
+        UManager.RECREATE()
+
     UManager.INIT()
     print(UManager.get_userlist())
     await dp.start_polling(bot)

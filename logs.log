@@ -1690,3 +1690,227 @@ TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
 19:07:21,494 aiogram.dispatcher WARNING Received SIGINT signal
 19:07:21,495 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
 19:07:21,495 aiogram.dispatcher INFO Polling stopped
+17:49:45,991 asyncio DEBUG Using selector: EpollSelector
+17:49:46,7 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+17:49:46,8 aiogram.dispatcher INFO Start polling
+17:49:46,10 root DEBUG timed
+17:49:46,10 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:49:46,11 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:49:46,192 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+17:49:46,192 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+17:49:46,193 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+17:49:46,545 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+17:49:46,777 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:49:46,985 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-13 17:50:46' WHERE id=1647252544"
+17:49:46,986 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Москва&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:49:46,987 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:49:47,149 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 2413
+17:49:47,150 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+17:49:47,151 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+17:49:47,382 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=55.7504461&longitude=37.6174943&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+17:49:47,568 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-13 17:50:47' WHERE id=2015855457"
+17:49:54,670 root INFO Query executed successfully - "DELETE FROM users WHERE id=1647252544"
+17:49:54,765 aiogram.event INFO Update id=663968541 is handled. Duration 146 ms by bot id=7759246153
+17:50:46,628 root DEBUG timed
+17:50:47,629 root DEBUG timed
+17:50:47,635 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Москва&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:50:47,636 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:51:02,736 root WARNING API is not responding. i think its dead xd
+17:51:02,790 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-13 17:52:02' WHERE id=2015855457"
+17:51:18,661 aiogram.dispatcher WARNING Received SIGINT signal
+17:51:18,661 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:51:18,662 aiogram.dispatcher INFO Polling stopped
+17:52:36,283 asyncio DEBUG Using selector: EpollSelector
+17:52:36,284 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(60) ); "
+17:52:36,284 aiogram.dispatcher INFO Start polling
+17:52:36,285 root DEBUG timed
+17:52:36,285 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Москва&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+17:52:36,286 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+17:52:51,385 root WARNING API is not responding. i think its dead xd
+17:52:52,423 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-13 17:53:51' WHERE id=2015855457"
+17:52:52,687 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+17:52:52,872 root INFO Query executed successfully - "DELETE FROM users WHERE id=2015855457"
+17:52:53,161 aiogram.event INFO Update id=663968542 is handled. Duration 368 ms by bot id=7759246153
+17:52:53,425 aiogram.dispatcher INFO Polling stopped
+17:52:53,676 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:00:20,521 asyncio DEBUG Using selector: EpollSelector
+18:00:31,89 asyncio DEBUG Using selector: EpollSelector
+18:00:31,90 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+18:00:31,90 aiogram.dispatcher INFO Start polling
+18:00:31,392 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:00:39,827 aiogram.dispatcher WARNING Received SIGINT signal
+18:00:39,827 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:00:39,827 aiogram.dispatcher INFO Polling stopped
+18:00:46,254 asyncio DEBUG Using selector: EpollSelector
+18:00:46,316 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<launcher() done, defined at /home/tima/ups_otbor/main.py:151> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 155, in launcher
+    await task1
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/asyncio/runners.py", line 187, in run
+    with Runner(debug=debug) as runner:
+  File "/usr/lib/python3.11/asyncio/runners.py", line 63, in __exit__
+    self.close()
+  File "/usr/lib/python3.11/asyncio/runners.py", line 71, in close
+    _cancel_all_tasks(loop)
+  File "/usr/lib/python3.11/asyncio/runners.py", line 199, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 637, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 604, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tima/ups_otbor/main.py", line 152, in launcher
+    async with asyncio.TaskGroup() as tg:
+  File "/usr/lib/python3.11/asyncio/taskgroups.py", line 116, in __aexit__
+    raise self._base_error
+  File "/home/tima/ups_otbor/main.py", line 143, in main
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 1874, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 1909, in parse_known_args
+    self.error(str(err))
+  File "/usr/lib/python3.11/argparse.py", line 2629, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/usr/lib/python3.11/argparse.py", line 2616, in exit
+    _sys.exit(status)
+SystemExit: 2
+18:03:44,61 asyncio DEBUG Using selector: EpollSelector
+18:03:44,121 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<launcher() done, defined at /home/tima/ups_otbor/main.py:151> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 155, in launcher
+    await task1
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/asyncio/runners.py", line 187, in run
+    with Runner(debug=debug) as runner:
+  File "/usr/lib/python3.11/asyncio/runners.py", line 63, in __exit__
+    self.close()
+  File "/usr/lib/python3.11/asyncio/runners.py", line 71, in close
+    _cancel_all_tasks(loop)
+  File "/usr/lib/python3.11/asyncio/runners.py", line 199, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 637, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 604, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tima/ups_otbor/main.py", line 152, in launcher
+    async with asyncio.TaskGroup() as tg:
+  File "/usr/lib/python3.11/asyncio/taskgroups.py", line 116, in __aexit__
+    raise self._base_error
+  File "/home/tima/ups_otbor/main.py", line 143, in main
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 1874, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 1907, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 2143, in _parse_known_args
+    self.error(_('the following arguments are required: %s') %
+  File "/usr/lib/python3.11/argparse.py", line 2629, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/usr/lib/python3.11/argparse.py", line 2616, in exit
+    _sys.exit(status)
+SystemExit: 2
+18:04:41,932 asyncio DEBUG Using selector: EpollSelector
+18:04:50,163 asyncio DEBUG Using selector: EpollSelector
+18:04:50,164 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+18:04:50,164 aiogram.dispatcher INFO Start polling
+18:04:50,517 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:04:51,112 aiogram.dispatcher WARNING Received SIGINT signal
+18:04:51,112 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:04:51,112 aiogram.dispatcher INFO Polling stopped
+18:04:56,94 asyncio DEBUG Using selector: EpollSelector
+18:04:56,153 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<launcher() done, defined at /home/tima/ups_otbor/main.py:151> exception=SystemExit(2)>
+Traceback (most recent call last):
+  File "/home/tima/ups_otbor/main.py", line 155, in launcher
+    await task1
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/asyncio/runners.py", line 187, in run
+    with Runner(debug=debug) as runner:
+  File "/usr/lib/python3.11/asyncio/runners.py", line 63, in __exit__
+    self.close()
+  File "/usr/lib/python3.11/asyncio/runners.py", line 71, in close
+    _cancel_all_tasks(loop)
+  File "/usr/lib/python3.11/asyncio/runners.py", line 199, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 637, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 604, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/tima/ups_otbor/main.py", line 152, in launcher
+    async with asyncio.TaskGroup() as tg:
+  File "/usr/lib/python3.11/asyncio/taskgroups.py", line 116, in __aexit__
+    raise self._base_error
+  File "/home/tima/ups_otbor/main.py", line 143, in main
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 1874, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 1909, in parse_known_args
+    self.error(str(err))
+  File "/usr/lib/python3.11/argparse.py", line 2629, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/usr/lib/python3.11/argparse.py", line 2616, in exit
+    _sys.exit(status)
+SystemExit: 2
+18:05:01,205 asyncio DEBUG Using selector: EpollSelector
+18:05:01,206 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+18:05:01,207 aiogram.dispatcher INFO Start polling
+18:05:01,520 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:08,682 aiogram.dispatcher WARNING Received SIGINT signal
+18:05:08,682 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:08,683 aiogram.dispatcher INFO Polling stopped
+18:05:21,510 asyncio DEBUG Using selector: EpollSelector
+18:05:21,511 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+18:05:21,512 aiogram.dispatcher INFO Start polling
+18:05:21,740 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:22,398 aiogram.dispatcher WARNING Received SIGINT signal
+18:05:22,399 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:22,399 aiogram.dispatcher INFO Polling stopped
+18:05:36,757 asyncio DEBUG Using selector: EpollSelector
+18:05:36,758 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+18:05:36,759 aiogram.dispatcher INFO Start polling
+18:05:36,992 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:37,844 aiogram.dispatcher WARNING Received SIGINT signal
+18:05:37,845 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:37,845 aiogram.dispatcher INFO Polling stopped
+18:05:47,309 asyncio DEBUG Using selector: EpollSelector
+18:05:47,678 root INFO Query executed successfully - " DROP TABLE users; "
+18:05:47,727 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+18:05:47,727 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+18:05:47,728 aiogram.dispatcher INFO Start polling
+18:05:47,954 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:53,376 aiogram.dispatcher WARNING Received SIGINT signal
+18:05:53,377 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+18:05:53,377 aiogram.dispatcher INFO Polling stopped
