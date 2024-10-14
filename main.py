@@ -4,6 +4,9 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 import requests
+from fastapi import FastAPI
+from starlette import status
+from starlette.responses import Response
 
 import logging
 import argparse
@@ -128,6 +131,14 @@ async def eloop() -> None:
 #     for task in asyncio.all_tasks():
 #         task.cancel()
 
+async def listen8000():
+
+    app = FastAPI()  # noqa: pylint=invalid-name
+
+    @app.get("/")
+    def index():
+        return {"text": "text"}
+
 async def main():
     """
     Основная функция, отвечающая за обработку сообщений ботом, настройку логирования, работы с базой данных пользователей
@@ -152,8 +163,10 @@ async def launcher():
     async with asyncio.TaskGroup() as tg:
         task1 = tg.create_task(main())
         task2 = tg.create_task(eloop())
+        task3 = tg.create_task(listen8000())
         await task1
         task2.cancel()
+        task3.cancel()
     # loop = asyncio.get_running_loop()
     # loop.add_signal_handler(signal.SIGINT, signal_handler)
 
