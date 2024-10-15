@@ -40,7 +40,10 @@ class WeatherAPI:
         r = requests.get(f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1", timeout=15)
         json = r.json()
         return f"""Погода в {city}:
-Температура: {round(json["current"]["temperature_2m"], 1)} °C"""
+Температура: {round(json['current']['temperature_2m'], 1)} °C
+Облачность: {json['current']['cloud_cover']}%
+Скорость ветра: {json['current']['wind_speed_10m']} м/с
+"""
     
 class WeatherAPI_deprecated:
     def __init__(self, api_key):
