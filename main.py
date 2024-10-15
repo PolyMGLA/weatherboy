@@ -8,6 +8,7 @@ from fastapi import FastAPI
 from starlette import status
 from starlette.responses import Response
 import uvicorn
+import socketserver
 
 import logging
 import argparse
@@ -55,12 +56,21 @@ inline_kb_delay = InlineKeyboardBuilder().row(inline_btn_delay_1) \
                                         .row(inline_btn_delay_30) \
                                         .row(inline_btn_delay_60) \
                                         .row(inline_btn_delay_180).as_markup()
-
+"""
 app = FastAPI()
 
 @app.get("/")
 def index():
     return {"text": "text"}
+"""
+
+
+class MyTCPHandler(socketserver.BaseRequestHandler):
+    def handle(self):
+        self.data = self.request.recv(1024).strip()
+        print("Received from {}:".format(self.client_address[0]))
+        print(self.data)
+        self.request.sendall(self.data.upper())
 
 @dp.message(Command(commands=["start"]))
 async def start(message: types.Message) -> None:
@@ -140,7 +150,9 @@ async def eloop() -> None:
 #         task.cancel()
 
 def listen3000() -> None:
-    uvicorn.run('main:app', port=3000)
+    # uvicorn.run('main:app', port=3000)
+    with socketserver.UDPServer(("localhost", 3000), MyTCPHandler) as server:
+        server.serve_forever()
 
 async def main():
     """
