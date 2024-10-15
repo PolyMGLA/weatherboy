@@ -73,9 +73,18 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         print(self.data)
         self.request.sendall(self.data.upper())
 
+class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
+
+    # определяем метод `do_GET` 
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b'Hello, world!')
+
 PORT = 3000
 
-Handler = http.server.SimpleHTTPRequestHandler
+#Handler = http.server.SimpleHTTPRequestHandler
+Handler = SimpleHTTPRequestHandler
 
 @dp.message(Command(commands=["start"]))
 async def start(message: types.Message) -> None:
