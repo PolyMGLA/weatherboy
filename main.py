@@ -142,13 +142,16 @@ async def send_weather(user_id, delay) -> None:
 
 async def sleep(delay):
     start = time.time()
+    cnt = 0
     while (time.time() - start < delay) and FLAG_RUNNING:
+        if cnt % 60 == 0:
+            requests.get("http://localhost:3000")
+        cnt += 1
         await asyncio.sleep(1)
 
 async def eloop() -> None:
     global FLAG_RUNNING
     while True:
-        requests.get("http://localhost:3000")
         us = UManager.get_userlist()
         mn = min(list(map(lambda x: datetime.datetime.strptime(x[2], FORMAT), us)) + [datetime.datetime.fromtimestamp(datetime.datetime.now().timestamp() + 1800)])
         print(mn)
