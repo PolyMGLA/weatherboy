@@ -49,11 +49,13 @@ UManager = UserManager("users.db")
 
 inline_btn_delay_1 = InlineKeyboardButton(text='Каждую минуту', callback_data='button1')
 inline_btn_delay_5 = InlineKeyboardButton(text='Каждые 5 минут', callback_data='button5')
+inline_btn_delay_20 = InlineKeyboardButton(text='Каждые 20 минут', callback_data='button20')
 inline_btn_delay_30 = InlineKeyboardButton(text='Каждые 30 минут', callback_data='button30')
 inline_btn_delay_60 = InlineKeyboardButton(text='Каждый час', callback_data='button60')
 inline_btn_delay_180 = InlineKeyboardButton(text='Каждые 3 часа', callback_data='button180')
 inline_kb_delay = InlineKeyboardBuilder().row(inline_btn_delay_1) \
                                         .row(inline_btn_delay_5) \
+                                        .row(inline_btn_delay_20) \
                                         .row(inline_btn_delay_30) \
                                         .row(inline_btn_delay_60) \
                                         .row(inline_btn_delay_180).as_markup()
