@@ -2045,3 +2045,10 @@ SystemExit: 2
 16:22:17,633 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
 16:22:17,633 aiogram.dispatcher INFO Polling stopped
 16:22:17,854 aiogram.dispatcher WARNING Received SIGINT signal
+16:28:54,683 asyncio DEBUG Using selector: EpollSelector
+16:28:54,684 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+16:28:54,685 aiogram.dispatcher INFO Start polling
+16:28:54,900 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:29:06,315 aiogram.dispatcher WARNING Received SIGINT signal
+16:29:06,315 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+16:29:06,315 aiogram.dispatcher INFO Polling stopped

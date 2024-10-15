@@ -9,6 +9,7 @@ from starlette import status
 from starlette.responses import Response
 import uvicorn
 import socketserver
+import http.server
 
 import logging
 import argparse
@@ -71,6 +72,10 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         print("Received from {}:".format(self.client_address[0]))
         print(self.data)
         self.request.sendall(self.data.upper())
+
+PORT = 3000
+
+Handler = http.server.SimpleHTTPRequestHandler
 
 @dp.message(Command(commands=["start"]))
 async def start(message: types.Message) -> None:
@@ -151,8 +156,11 @@ async def eloop() -> None:
 
 def listen3000() -> None:
     # uvicorn.run('main:app', port=3000)
-    with socketserver.UDPServer(("localhost", 3000), MyTCPHandler) as server:
-        server.serve_forever()
+    # with socketserver.UDPServer(("localhost", 3000), MyTCPHandler) as server:
+    #     server.serve_forever()
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print("serving at port", PORT)
+        httpd.serve_forever()
 
 async def main():
     """
