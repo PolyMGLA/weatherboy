@@ -148,6 +148,7 @@ async def sleep(delay):
 async def eloop() -> None:
     global FLAG_RUNNING
     while True:
+        requests.get("http://localhost:3000")
         us = UManager.get_userlist()
         mn = min(list(map(lambda x: datetime.datetime.strptime(x[2], FORMAT), us)) + [datetime.datetime.fromtimestamp(datetime.datetime.now().timestamp() + 1800)])
         print(mn)

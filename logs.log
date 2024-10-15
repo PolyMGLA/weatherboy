@@ -2114,3 +2114,26 @@ SystemExit: 2
 19:20:32,303 aiogram.dispatcher WARNING Received SIGINT signal
 19:20:32,304 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
 19:20:32,304 aiogram.dispatcher INFO Polling stopped
+21:05:06,295 asyncio DEBUG Using selector: EpollSelector
+21:05:06,315 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+21:05:06,316 aiogram.dispatcher INFO Start polling
+21:05:06,317 aiogram.dispatcher INFO Polling stopped
+21:05:16,415 asyncio DEBUG Using selector: EpollSelector
+21:05:16,416 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+21:05:16,417 aiogram.dispatcher INFO Start polling
+21:05:16,417 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:3000
+21:05:16,418 urllib3.connectionpool DEBUG http://localhost:3000 "GET / HTTP/10" 200 None
+21:05:16,420 root DEBUG timed
+21:05:16,420 root DEBUG GET 'http://api.openweathermap.org/geo/1.0/direct?q=Екатеринбург&&appid=2cfb820c66102664ba3d1ec88b0b00bb'
+21:05:16,420 urllib3.connectionpool DEBUG Starting new HTTP connection (1): api.openweathermap.org:80
+21:05:16,613 urllib3.connectionpool DEBUG http://api.openweathermap.org:80 "GET /geo/1.0/direct?q=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3&&appid=2cfb820c66102664ba3d1ec88b0b00bb HTTP/11" 200 1085
+21:05:16,613 root DEBUG GET 'https://api.open-meteo.com/v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1'
+21:05:16,614 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): api.open-meteo.com:443
+21:05:16,826 urllib3.connectionpool DEBUG https://api.open-meteo.com:443 "GET /v1/forecast?latitude=56.839104&longitude=60.60825&current=temperature_2m,apparent_temperature,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=temperature_2m&wind_speed_unit=ms&forecast_days=1 HTTP/11" 200 None
+21:05:17,287 root INFO Query executed successfully - "UPDATE users SET timer='2024-10-17 03:05:17' WHERE id=1647252544"
+21:05:17,508 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:05:18,290 urllib3.connectionpool DEBUG Starting new HTTP connection (1): localhost:3000
+21:05:18,291 urllib3.connectionpool DEBUG http://localhost:3000 "GET / HTTP/10" 200 None
+21:05:19,744 aiogram.dispatcher WARNING Received SIGINT signal
+21:05:19,745 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+21:05:19,745 aiogram.dispatcher INFO Polling stopped
