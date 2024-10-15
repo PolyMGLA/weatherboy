@@ -18,6 +18,8 @@ import asyncio
 import threading
 import signal
 
+import os
+
 from multiprocessing import Process
 
 import time
@@ -25,6 +27,17 @@ import datetime
 
 from api import WeatherAPI
 from umanage import UserManager
+
+REQ_SPAM = False
+# Флаг, отвечающий за поддержку сайта поднятым. 
+# При активном флаге программа каждую минуту ожидания
+# отправляет запрос на сайт, работающий в потоке l3000,
+# симулируя запросы пользователей на сайт
+# #костыль
+# в случае, если флаг не активен и/или бот перестал отвечать,
+# работу может возобновить запрос по адресу https://weatherboy-bl4d8czq.b4a.run/
+# или, если проблемы на стороне API, стоит подождать какое-то время. Программа
+# определит, когда API продолжит отвечать.
 
 START_TEXT = """
 Привет! Напиши в чат город, в котором ты бы хотел узнать погоду
@@ -38,8 +51,8 @@ HELP_TEXT = """WeatherBoy 1.0
 /unreg - отписаться от уведомлений
 """
 
-OPENWEATHER_API_CODE = "2cfb820c66102664ba3d1ec88b0b00bb"
-BOT_TOKEN = "7759246153:AAGXNAMUHQAK-DC58hdr47a6GfCHrl7dIGU"
+OPENWEATHER_API_CODE = os.environ["OPENWEATHER_API_CODE"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 FORMAT = r'%Y-%m-%d %H:%M:%S'
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
@@ -76,17 +89,13 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
         self.request.sendall(self.data.upper())
 
 class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
-
-    # определяем метод `do_GET` 
+    """
+    Сервер, работающий на порте 3000. Требуется для работы программы на хостинге
+    """
     def do_GET(self):
         self.send_response(200)
         self.end_headers()
         self.wfile.write(b'Hello, world!')
-
-PORT = 3000
-
-#Handler = http.server.SimpleHTTPRequestHandler
-Handler = SimpleHTTPRequestHandler
 
 @dp.message(Command(commands=["start"]))
 async def start(message: types.Message) -> None:
@@ -144,9 +153,9 @@ async def sleep(delay):
     start = time.time()
     cnt = 0
     while (time.time() - start < delay) and FLAG_RUNNING:
-        if cnt % 60 == 0:
+        if cnt % 60 == 0 and REQ_SPAM:
             requests.get("http://localhost:3000")
-        cnt += 1
+        cnt = (cnt + 1) % 60
         await asyncio.sleep(1)
 
 async def eloop() -> None:
@@ -170,6 +179,13 @@ async def eloop() -> None:
 #         task.cancel()
 
 def listen3000() -> None:
+    """
+    Функция, отвечающая за работу сервера по порту 3000. Сервер нужен для работы на данном хостинге
+    """
+    PORT = 3000
+
+    #Handler = http.server.SimpleHTTPRequestHandler
+    Handler = SimpleHTTPRequestHandler
     # uvicorn.run('main:app', port=3000)
     # with socketserver.UDPServer(("localhost", 3000), MyTCPHandler) as server:
     #     server.serve_forever()
@@ -197,7 +213,10 @@ async def main():
     print(UManager.get_userlist())
     await dp.start_polling(bot)
 
-async def launcher():
+async def launcher() -> None:
+    """
+    Функция, отвечающая за запуск бота
+    """
     async with asyncio.TaskGroup() as tg:
         task1 = tg.create_task(main())
         task2 = tg.create_task(eloop())
