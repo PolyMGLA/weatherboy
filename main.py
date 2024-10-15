@@ -7,11 +7,13 @@ import requests
 from fastapi import FastAPI
 from starlette import status
 from starlette.responses import Response
+import uvicorn
 
 import logging
 import argparse
 
 import asyncio
+import threading
 import signal
 
 from multiprocessing import Process
@@ -53,6 +55,12 @@ inline_kb_delay = InlineKeyboardBuilder().row(inline_btn_delay_1) \
                                         .row(inline_btn_delay_30) \
                                         .row(inline_btn_delay_60) \
                                         .row(inline_btn_delay_180).as_markup()
+
+app = FastAPI()
+
+@app.get("/")
+def index():
+    return {"text": "text"}
 
 @dp.message(Command(commands=["start"]))
 async def start(message: types.Message) -> None:
@@ -131,13 +139,8 @@ async def eloop() -> None:
 #     for task in asyncio.all_tasks():
 #         task.cancel()
 
-async def listen8000():
-
-    app = FastAPI()  # noqa: pylint=invalid-name
-
-    @app.get("/")
-    def index():
-        return {"text": "text"}
+def listen3000() -> None:
+    uvicorn.run('main:app', port=3000)
 
 async def main():
     """
@@ -163,15 +166,18 @@ async def launcher():
     async with asyncio.TaskGroup() as tg:
         task1 = tg.create_task(main())
         task2 = tg.create_task(eloop())
-        task3 = tg.create_task(listen8000())
         await task1
         task2.cancel()
-        task3.cancel()
     # loop = asyncio.get_running_loop()
     # loop.add_signal_handler(signal.SIGINT, signal_handler)
+    
 
 if __name__ == "__main__":
     # event_loop = Process(target=eloop)
     # event_loop.start()
     # asyncio.create_task(eloop())
+
+    l3000 = threading.Thread(target=listen3000)
+    l3000.start()
+
     asyncio.run(launcher())

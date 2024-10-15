@@ -1929,3 +1929,37 @@ SystemExit: 2
 00:48:59,680 aiogram.dispatcher WARNING Received SIGINT signal
 00:48:59,681 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
 00:48:59,681 aiogram.dispatcher INFO Polling stopped
+00:56:18,238 asyncio DEBUG Using selector: EpollSelector
+00:56:18,239 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+00:56:18,239 aiogram.dispatcher INFO Start polling
+00:56:18,241 aiogram.dispatcher INFO Polling stopped
+00:56:35,632 asyncio DEBUG Using selector: EpollSelector
+00:56:35,633 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+00:56:35,633 aiogram.dispatcher INFO Start polling
+00:56:35,635 aiogram.dispatcher INFO Polling stopped
+00:56:48,578 asyncio DEBUG Using selector: EpollSelector
+00:58:14,293 asyncio DEBUG Using selector: EpollSelector
+00:58:14,294 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+00:58:14,294 aiogram.dispatcher INFO Start polling
+00:58:14,296 aiogram.dispatcher INFO Polling stopped
+15:46:28,9 asyncio DEBUG Using selector: EpollSelector
+15:46:28,28 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+15:46:28,29 aiogram.dispatcher INFO Start polling
+15:46:28,38 aiogram.dispatcher INFO Polling stopped
+15:46:49,459 asyncio DEBUG Using selector: EpollSelector
+15:46:49,460 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+15:46:49,460 aiogram.dispatcher INFO Start polling
+15:46:49,461 aiogram.dispatcher INFO Polling stopped
+15:53:35,424 asyncio DEBUG Using selector: EpollSelector
+15:53:51,329 asyncio DEBUG Using selector: EpollSelector
+15:53:51,331 asyncio DEBUG Using selector: EpollSelector
+15:54:16,785 asyncio DEBUG Using selector: EpollSelector
+15:54:16,787 asyncio DEBUG Using selector: EpollSelector
+15:54:39,981 asyncio DEBUG Using selector: EpollSelector
+15:54:39,982 root INFO Query executed successfully - " CREATE TABLE IF NOT EXISTS users (   id INTEGER PRIMARY KEY,   city TEXT NOT NULL,   timer DATETIME NOT NULL,   delay INTEGER NOT NULL DEFAULT(1800) ); "
+15:54:39,982 aiogram.dispatcher INFO Start polling
+15:54:39,983 asyncio DEBUG Using selector: EpollSelector
+15:54:40,212 aiogram.dispatcher INFO Run polling for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+15:54:55,666 aiogram.dispatcher WARNING Received SIGINT signal
+15:54:55,666 aiogram.dispatcher INFO Polling stopped for bot @weatherboy_ups_bot id=7759246153 - 'WeatherBoy'
+15:54:55,666 aiogram.dispatcher INFO Polling stopped
