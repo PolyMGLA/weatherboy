@@ -28,7 +28,7 @@ import datetime
 from api import WeatherAPI
 from umanage import UserManager
 
-REQ_SPAM = False
+REQ_SPAM = True
 # Флаг, отвечающий за поддержку сайта поднятым. 
 # При активном флаге программа каждую минуту ожидания
 # отправляет запрос на сайт, работающий в потоке l3000,
@@ -155,6 +155,7 @@ async def sleep(delay):
     while (time.time() - start < delay) and FLAG_RUNNING:
         if cnt % 60 == 0 and REQ_SPAM:
             requests.get("http://localhost:3000")
+            requests.get('https://1-dqxrat8k.b4a.run')
         cnt = (cnt + 1) % 60
         await asyncio.sleep(1)
 
