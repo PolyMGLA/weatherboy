@@ -28,7 +28,7 @@ import datetime
 from api import WeatherAPI
 from umanage import UserManager
 
-REQ_SPAM = True
+REQ_SPAM = False
 # Флаг, отвечающий за поддержку сайта поднятым. 
 # При активном флаге программа каждую минуту ожидания
 # отправляет запрос на сайт, работающий в потоке l3000,
